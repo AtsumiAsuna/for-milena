@@ -1,0 +1,50 @@
+﻿<Window x:Class="RoomExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RoomExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="841" Width="1126">
+    <Grid Margin="10,10,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="271*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle HorizontalAlignment="Left" Height="500" Margin="29,87,0,0" VerticalAlignment="Top" Width="529" Grid.ColumnSpan="2" Stroke="#FFB4B4B4"/>
+        <Rectangle HorizontalAlignment="Left" Height="500" Margin="531,87,0,0" Stroke="Black" VerticalAlignment="Top" Width="529" Grid.Column="1"/>
+        <Button x:Name="ButtonAll" Grid.Column="1" Content="Посчитать вместе" HorizontalAlignment="Left" Margin="0,730,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.29,1.197" Height="40" Width="236" FontSize="20" Click="ButtonAll_Click"/>
+        <Button x:Name="ButtonOpen2" Grid.Column="1" Content="Открыть" HorizontalAlignment="Left" Margin="547,643,0,0" VerticalAlignment="Top" Height="49" Width="186" FontSize="20" Click="ButtonOpen2_Click"/>
+        <Button x:Name="ButtonOpen1" Grid.Column="1" Content="Открыть" HorizontalAlignment="Left" Margin="10,651,0,0" VerticalAlignment="Top" Height="49" Width="186" FontSize="20" Click="ButtonOpen1_Click"/>
+        <Label Grid.Column="1" Content="Первая комната" HorizontalAlignment="Left" Margin="0,102,0,0" VerticalAlignment="Top" Height="56" Width="196" FontSize="20" FontWeight="Bold"/>
+        <Label Grid.Column="1" Content="Длина" HorizontalAlignment="Left" Margin="10,163,0,0" VerticalAlignment="Top" Height="30" Width="74" FontSize="18"/>
+        <Label Grid.Column="1" Content="Вторая комната" Margin="542,102,0,0" VerticalAlignment="Top" Height="56" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" Width="196"/>
+        <Label Grid.Column="1" Content="Ширина" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" Height="33" Width="88" FontSize="18"/>
+        <Label Grid.Column="1" Content="Число человек" HorizontalAlignment="Left" Margin="10,301,0,0" VerticalAlignment="Top" Height="36" Width="137" FontSize="18"/>
+        <Label Grid.Column="1" Content="Периметр" HorizontalAlignment="Left" Margin="10,372,0,0" VerticalAlignment="Top" Height="36" Width="108" FontSize="18"/>
+        <Label Grid.Column="1" Content="Площадь" HorizontalAlignment="Left" Margin="10,453,0,0" VerticalAlignment="Top" Height="36" Width="108" FontSize="18"/>
+        <Label Grid.Column="1" Content="Метраж" HorizontalAlignment="Left" Margin="10,526,0,0" VerticalAlignment="Top" Height="36" Width="108" FontSize="18"/>
+        <Label Grid.Column="1" Content="Длина" HorizontalAlignment="Left" Margin="547,163,0,0" VerticalAlignment="Top" Height="30" Width="74" FontSize="18"/>
+        <Label Grid.Column="1" Content="Ширина" HorizontalAlignment="Left" Margin="542,230,0,0" VerticalAlignment="Top" Height="33" Width="88" FontSize="18"/>
+        <Label Grid.Column="1" Content="Число человек" HorizontalAlignment="Left" Margin="542,301,0,0" VerticalAlignment="Top" Height="36" Width="137" FontSize="18"/>
+        <Label Grid.Column="1" Content="Периметр" HorizontalAlignment="Left" Margin="547,372,0,0" VerticalAlignment="Top" Height="36" Width="108" FontSize="18"/>
+        <Label Grid.Column="1" Content="Площадь" HorizontalAlignment="Left" Margin="547,453,0,0" VerticalAlignment="Top" Height="36" Width="108" FontSize="18"/>
+        <Label Grid.Column="1" Content="Метраж" HorizontalAlignment="Left" Margin="547,526,0,0" VerticalAlignment="Top" Height="36" Width="108" FontSize="18"/>
+        <Label Grid.Column="1" Content="Общая площадь" HorizontalAlignment="Left" Margin="369,733,0,0" VerticalAlignment="Top" Width="173" FontSize="20"/>
+        <Button x:Name="ExitButton" Grid.Column="1" Content="Выход" HorizontalAlignment="Left" Margin="943,10,0,0" VerticalAlignment="Top" FontSize="20" Height="48" Width="102" Click="ExitButton_Click"/>
+        <Label x:Name="LabelLenght1" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="262,152,0,0" VerticalAlignment="Top" FontSize="18" Width="148" Height="52"/>
+        <Label x:Name="LabelWidth1" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="262,221,0,0" VerticalAlignment="Top" FontSize="18" Width="148" Height="51"/>
+        <Label x:Name="LabelNumPerson1" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="262,294,0,0" VerticalAlignment="Top" FontSize="18" Width="148" Height="50"/>
+        <Label x:Name="LabelPerimeter1" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="262,364,0,0" VerticalAlignment="Top" FontSize="18" Width="148" Height="52"/>
+        <Label x:Name="LabelArea1" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="262,445,0,0" VerticalAlignment="Top" FontSize="18" Width="148" Height="52"/>
+        <Label x:Name="LabelPersonArea1" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="262,518,0,0" VerticalAlignment="Top" FontSize="18" Width="148" Height="52"/>
+        <Label x:Name="LabelPersonArea2" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="796,518,0,0" VerticalAlignment="Top" FontSize="18" Width="148" Height="52"/>
+        <Label x:Name="LabelArea2" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="796,445,0,0" VerticalAlignment="Top" FontSize="18" Width="148" Height="52"/>
+        <Label x:Name="LabelPerimeter2" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="796,364,0,0" VerticalAlignment="Top" FontSize="18" Width="148" Height="52"/>
+        <TextBox x:Name="TBLenght2" Grid.Column="1" HorizontalAlignment="Left" Margin="796,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="52" FontSize="20"/>
+        <TextBox x:Name="TBWidth2" Grid.Column="1" HorizontalAlignment="Left" Margin="796,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="51" FontSize="20"/>
+        <TextBox x:Name="TBNumPerson2" Grid.Column="1" HorizontalAlignment="Left" Margin="796,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Height="52" FontSize="20"/>
+        <Label x:Name="LabelAllArea" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="566,727,0,0" VerticalAlignment="Top" FontSize="18" Width="148" Height="52"/>
+
+    </Grid>
+</Window>

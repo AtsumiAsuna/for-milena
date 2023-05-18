@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoomLibrary", "RoomLibrary\RoomLibrary.csproj", "{B612A3E6-34B4-4830-BF32-6C9FB5D41857}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B612A3E6-34B4-4830-BF32-6C9FB5D41857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B612A3E6-34B4-4830-BF32-6C9FB5D41857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B612A3E6-34B4-4830-BF32-6C9FB5D41857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B612A3E6-34B4-4830-BF32-6C9FB5D41857}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {446804D6-AFDF-4D7B-B083-04E08ABC5DFA}
+	EndGlobalSection
+EndGlobal
