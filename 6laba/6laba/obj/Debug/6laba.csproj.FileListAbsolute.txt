@@ -1,0 +1,8 @@
+C:\Users\evako\source\repos\6laba\6laba\bin\Debug\6laba.exe.config
+C:\Users\evako\source\repos\6laba\6laba\bin\Debug\6laba.exe
+C:\Users\evako\source\repos\6laba\6laba\bin\Debug\6laba.pdb
+C:\Users\evako\source\repos\6laba\6laba\obj\Debug\6laba.csproj.AssemblyReference.cache
+C:\Users\evako\source\repos\6laba\6laba\obj\Debug\6laba.csproj.SuggestedBindingRedirects.cache
+C:\Users\evako\source\repos\6laba\6laba\obj\Debug\6laba.csproj.CoreCompileInputs.cache
+C:\Users\evako\source\repos\6laba\6laba\obj\Debug\6laba.exe
+C:\Users\evako\source\repos\6laba\6laba\obj\Debug\6laba.pdb
