@@ -1,0 +1,8 @@
+C:\Users\evako\source\repos\5laba\5laba\bin\Debug\5laba.exe.config
+C:\Users\evako\source\repos\5laba\5laba\bin\Debug\5laba.exe
+C:\Users\evako\source\repos\5laba\5laba\bin\Debug\5laba.pdb
+C:\Users\evako\source\repos\5laba\5laba\obj\Debug\5laba.csproj.AssemblyReference.cache
+C:\Users\evako\source\repos\5laba\5laba\obj\Debug\5laba.csproj.SuggestedBindingRedirects.cache
+C:\Users\evako\source\repos\5laba\5laba\obj\Debug\5laba.csproj.CoreCompileInputs.cache
+C:\Users\evako\source\repos\5laba\5laba\obj\Debug\5laba.exe
+C:\Users\evako\source\repos\5laba\5laba\obj\Debug\5laba.pdb
