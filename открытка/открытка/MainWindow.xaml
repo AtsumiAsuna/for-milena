@@ -1,0 +1,17 @@
+﻿<Window x:Class="открытка.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:открытка"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1000">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <local:UserControl1 Header="Подразделение 1" Description="сообщение с поздравлением 1"></local:UserControl1>
+            <local:UserControl1 Header="Подразделение 2" Description="сообщение с поздравлением 2"></local:UserControl1>
+            <local:UserControl1 Header="Подразделение 3" Description="сообщение с поздравлением 3"></local:UserControl1>
+            <local:UserControl1 Header="Подразделение 4" Description="сообщение с поздравлением 4"></local:UserControl1>
+        </StackPanel>
+    </Grid>
+</Window>
